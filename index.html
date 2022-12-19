@@ -1,158 +1,79 @@
 <!doctype html>
 <html>
-
-	<head>
-		<meta charset="utf-8">
-		<title>明金同学个人网页</title>
-		<style type="text/css">
-			/* CSS Document */
-			* {
-				margin: 0;
-				padding: 0;
-			}
-
-			a {
-				text-decoration: none;
-			}
-
-			.clearfix:after {
-				content: "";
-				display: block;
-				height: 0;
-				visibility: hidden;
-				clear: both;
-			}
-
-			.clearfix {
-				*zoom: 1;
-			}
-
-			body {
-				background: url(bg.png) no-repeat;
-				background-size: cover;
-				background-attachment: fixed;
-			}
-
-			.content {
-				width: 900px;
-				height: 500px;
-				margin: 200px auto 0 auto;
-				border-radius: 10px;
-				background-color: rgba(236, 236, 236, 0.59);
-				transition: all 1.0s;
-				/*box-shadow: 0px 0px 20px rgba(0,0,0,0.3);*/
-			}
-
-			.content img {
-				float: left;
-				width: 200px;
-				height: 200px;
-				margin: 150px 0 0 80px;
-				border-radius: 100px;
-
-			}
-
-			.content:hover {
-				box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.52);
-			}
-
-			.content_r {
-				float: right;
-				width: 500px;
-				margin: 80px 60px 0 0;
-				/*	background-color: pink;*/
-			}
-
-			.content_l {
-				float: left;
-				width: 100%;
-				text-align: center;
-			}
-
-			.content_l h5 {
-
-				font-size: 17px;
-			}
-
-			.cc {
-				margin-top: 10px;
-				color: #1F2023;
-				font-size: 18px;
-			}
-
-			.color_1 {
-				color: #4855EC;
-				font-size: 18px;
-			}
-
-			.deeppink {
-				color: deeppink;
-			}
-
-			.link {
-				margin-top: 30px;
-			}
-
-			.link a {
-				display: block;
-				float: left;
-				width: 120px;
-				height: 45px;
-				margin: 5px 5px 0 0;
-				/*	padding: 0 15px;*/
-				color: #fff;
-				line-height: 45px;
-				transition: all 0.8s;
-				/*	background-color: deeppink;*/
-
-			}
-
-			.link a:hover {
-				background-color: rgba(0, 201, 243, 0.35);
-			}
-
-			.deeppink_1 {
-				background-color: deeppink;
-			}
-
-			.dodgerblue {
-				background-color: dodgerblue;
-			}
-
-			.magenta {
-				background-color: magenta;
-			}
-
-			.orange {
-				background-color: orange;
-			}
-		</style>
-	</head>
-
-	<body>
-		<div class="content">
-			<img src="tx.png" alt="">
-			<div class="content_r clearfix">
-				<div class="content_l clearfix">
-					<h2>Hi~ 我是明金同学， Welcome here ！</h2>
-					<p class="cc">欢迎来到我的主页，一位热爱编程的小渣渣~</p>
-					<p class="cc">爱好计算机，会去自学一些感兴趣的东西 !</p>
-					<br>
-					<p class="color_1">I am an ambitious salted fish!</p>
-					<p class="color_1">我是一位有野心的咸鱼!</p>
-					<br>
-					<p class="deeppink">只要路是对的，就不怕路远。</p>
-					<p class="deeppink">As long as the road is right, you are not afraid of the distance.</p>
-					<div class="link">
-						<a href="#" class="dodgerblue" target="_blank">官网</a>
-						<a href="https://ymjin.blog.csdn.net/" class="deeppink_1" target="_blank">QQ群</a>
-						<a href="https://ymjin.blog.csdn.net/" class="magenta" target="_blank">个人博客</a>
-						<a href="https://ymjin.blog.csdn.net/" class="orange" target="_blank">网易云音乐</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-
+<head>
+<body>
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-bars btn-mobile-menu__icon"></i>
+        <i class="fa fa-chevron-circle-up btn-mobile-close__icon hidden"></i>
+    </span>
+  <div class="panel-main">
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">	    
+        <a href="https://blog.csdn.net/weixin_43151418?type=blog" title="xcLeigh博客"><img src="img/girl.png" width="150" alt="xcLeigh博客" class="panel-cover__logo logo"></a>
+        <h1 class="panel-cover__title panel-title"><a href="https://blog.csdn.net/weixin_43151418?type=blog" title="xcLeigh">xcLeigh博客</a></h1>
+        <span class="panel-cover__subtitle panel-subtitle">
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description">xcLeigh</br>努力到无能为力，拼搏到感动自己！</p>
+        <hr class="panel-cover__divider"> 
+        <p class="panel-cover__description">欢迎来到我的主页！</p>
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="https://blog.csdn.net/weixin_43151418" title="xcLeigh博客">xcLeigh博客</a></li>
+                <li class="navigation__item"><a href="https://blog.csdn.net/weixin_43151418?type=blog" title="xcLeigh文章">xcLeigh文章</a></li>
+                <li class="navigation__item"><a href="https://blog.csdn.net/weixin_43151418?type=download" title="xcLeigh资源">xcLeigh资源</a></li>
+                <li class="navigation__item"><a href="https://www.xcsharp.top/" title="xcLeigh官网">xcLeigh官网</a></li>
+              </ul>
+            </nav>
+          </div>
+          
+<div>
+<nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+  <li class="navigation__item">
+    <a href="https://blog.csdn.net/weixin_43151418?type=blog" title="我的博客" target="_blank">
+      <i class="social fa fa-weibo"></i>
+    </a>
+  </li>
+  <li class="navigation__item">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=1376174032&site=qq&menu=yes" title="QQ" target="_blank">
+      <i class="social fa fa-qq"></i>
+    </a>
+  </li>
+  <li class="navigation__item">
+    <a data-v="" href="#" title="扫一扫加我微信" class="wechat">
+	<div data-v="" class="qrCode">
+	 <img data-v="" src="img/csdn.png" width="92" onclick="window.open('https://blog.csdn.net/weixin_43151418?type=blog')">
+	  <div data-v="" class="triangle-down"></div>
+	</div>
+      <i class="social fa fa-weixin"></i>
+    </a>
+  </li>
+  <li class="navigation__item">
+    <a href="https://blog.csdn.net/weixin_43151418?type=download" title="资源源码" target="_blank">
+      <i class="social fa fa-telegram"></i>
+    </a>
+  </li>
+  <li class="navigation__item">
+    <a href="https://blog.csdn.net/weixin_43151418?type=blog" rel="author" title="RSS" target="_blank">
+      <i class="social fa fa-rss"></i>
+    </a>
+  </li>
+  <li class="navigation__item">
+    <a href="mailto:1376174032@qq.com" title="发邮件给我">
+      <i class="social fa fa-envelope"></i>
+    </a>
+  </li>
+  </ul>
+</nav>
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-cover--overlay cover-slate"></div>
+  </div>
+</header>
+</body>
 </html>
 
